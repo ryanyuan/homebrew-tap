@@ -8,6 +8,11 @@ class Kafkacli < Formula
     # depends_on "cmake" => :build
     depends_on "python@2"
   
+    resource "kafka" do
+      url "https://files.pythonhosted.org/packages/3b/1b/44605e699e0970a2be3d7135d185f95e8605399aa0f2a9d64de342eae4b7/kafka-1.3.5.tar.gz"
+      sha256 "ffb3348cd918c31344b1a2eb61f692cbc423c83b1b06466a86de3db8a3f6a018"
+    end
+
     def install
       # ENV.deparallelize  # if your formula fails when building in parallel
       # copies all files to bin so we can execute the files from other scripts
