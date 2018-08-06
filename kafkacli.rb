@@ -3,7 +3,7 @@ class Kafkacli < Formula
     desc "Apache Kafka CLI utility tool."
     homepage "https://github.com/ryanyuan/kafkacli"
     url "https://github.com/ryanyuan/kafkacli/releases/download/0.0.5/kafkacli-0.0.5.tar.gz"
-    sha256 "6553bcd1753e26490fe51faec9249f1655cb3efccaafccb27b89124eb5e1438a"
+    sha256 "9a3379c9e61d5a592032dbd19c8151cf11f525a823e5ddd0515d29d10a1a6b08"
     
     # depends_on "cmake" => :build
     depends_on "python@2"
