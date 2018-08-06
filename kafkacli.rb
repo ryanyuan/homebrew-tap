@@ -10,12 +10,7 @@ class Kafkacli < Formula
     def install
       # ENV.deparallelize  # if your formula fails when building in parallel
       # copies all files to bin so we can execute the files from other scripts
-      bin.install '__init__.py'
-      bin.install '__main__.py'
-      bin.install 'util.py'
-      (bin + '__init__.py').chmod 0755
-      (bin + '__main__.py').chmod 0755
-      (bin + 'util.py').chmod 0755
+      virtualenv_install_with_resources
     end
   end
   
