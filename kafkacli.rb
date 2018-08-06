@@ -1,6 +1,3 @@
-# brew tap ryanyuan/homebrew-tap
-# brew install kafkacli
-
 class Kafkacli < Formula
     desc "Apache Kafka CLI utility tool."
     homepage "https://github.com/ryanyuan/kafkacli"
