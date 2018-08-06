@@ -1,3 +1,5 @@
+include Language::Python::Virtualenv
+
 class Kafkacli < Formula
     desc "Apache Kafka CLI utility tool."
     homepage "https://github.com/ryanyuan/kafkacli"
