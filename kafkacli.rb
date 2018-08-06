@@ -2,7 +2,7 @@ class Kafkacli < Formula
   include Language::Python::Virtualenv
     desc "Apache Kafka CLI utility tool."
     homepage "https://github.com/ryanyuan/kafkacli"
-    url "https://github.com/ryanyuan/kafkacli/releases/download/0.0.4/kafkacli-0.0.4.tar.gz"
+    url "https://github.com/ryanyuan/kafkacli/releases/download/0.0.5/kafkacli-0.0.5.tar.gz"
     sha256 "6553bcd1753e26490fe51faec9249f1655cb3efccaafccb27b89124eb5e1438a"
     
     # depends_on "cmake" => :build
