@@ -3,9 +3,9 @@ class Hellomars < Formula
 
     desc "Shiny new formula"
     homepage "https://github.com/ryanyuan/hellomars"
-    url "https://files.pythonhosted.org/packages/21/d4/e4c3a9bc75e1275f37c49b811bcb56d1be3b51fe9ef930b033934d37fcba/hellomars-0.0.1.tar.gz"
-    sha256 "595a8405646cce41ddc01ff6955dffb4ddb90bf7f168fb31f5c1a16b67f23070"
-
+    url "https://files.pythonhosted.org/packages/dd/af/ce79c823887114124e06ffb19ce8e807048aaf5665f61786524e90bfe643/hellomars-1.0.0.tar.gz"
+    sha256 "bac892a9c0be42a333019d4c61b3e2881930b9544f880dc91df45ee21a379a29"
+    
     depends_on "python"
 
     def install
